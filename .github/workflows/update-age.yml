@@ -22,4 +22,4 @@ jobs:
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add readme.md
           git commit -m "Update age in README" || exit 0
-          git push https://x-access-token:${GH_PATH_TOKEN}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
+          git push https://x-access-token:${GH_PATH_TOKEN}@github.com/${{ github.repository }} HEAD:main
