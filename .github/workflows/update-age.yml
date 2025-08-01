@@ -15,9 +15,11 @@ jobs:
           node-version: '20'
       - run: node update-age.js
       - name: Commit changes
+        env:
+          GH_PATH_TOKEN: ${{ secrets.GH_PATH_TOKEN }}
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add readme.md
           git commit -m "Update age in README" || exit 0
-          git push
+          git push https://x-access-token:${GH_PATH_TOKEN}@github.com/${{ github.repository }} HEAD:${{ github.ref }}
