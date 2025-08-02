@@ -1,5 +1,9 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=D8BFD8&height=120&section=header"/>
 
+![GitHub last commit](https://img.shields.io/github/last-commit/TheFlash91/TheFlash91?label=updated)
+![GitHub followers](https://img.shields.io/github/followers/TheFlash91?label=GitHub%20followers)
+![Visitor](https://visitor-badge.laobi.icu/badge?page_id=TheFlash91-pattalam.repoName)
+
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=blue&size=35&center=true&vCenter=true&width=1000&lines=Welcome+to+my+Git;My+name+is+Kevin+Ocampo;I'm+<!-- AGE_PLACEHOLDER -->+years+old;I'm+from+Nicaragua+:%29)](https://git.io/typing-svg)
 
 # Hi 👋, I'm Kevin Ocampo.
@@ -73,13 +77,15 @@ Able to solve problems, proactive researcher, critical thinking, decision making
 - [{{.Name}}]({{.URL}}){{ with .Description }} - {{.}}{{ end }}
 {{- end}}
 
+
+<!-- GitHub Readme Stats comes with several built-in themes (e.g. dark, radical, merko, gruvbox, tokyonight, onedark, cobalt, synthwave, highcontrast, dracula). -->
 ## My GitHub Stats
 
- <img src="https://github-readme-stats.vercel.app/api?username=TheFlash91&show_icons=true&theme=gotham" alt="TheFlash91" width="45%" align="right"/>
+ <img src="https://github-readme-stats.vercel.app/api?username=TheFlash91&show_icons=true&theme=dark" alt="TheFlash91" width="45%" align="right"/>
  <img  src="https://github-readme-streak-stats.herokuapp.com/?user=TheFlash91&theme=dark" width="48%" >
  
 ## Top Languages
   
-  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TheFlash91&layout=compact&theme=gotham)
+  ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=TheFlash91&layout=compact&theme=tokyonight)
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=D8BFD8&height=120&section=footer"/>
