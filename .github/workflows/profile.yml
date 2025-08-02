@@ -5,6 +5,10 @@ on:
   schedule:
     - cron: '0 0 21 7 *' # Runs at 00:00 UTC on July 21 every year
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   update-profile-readme:
     runs-on: ubuntu-latest
