@@ -13,7 +13,8 @@ const repo = process.env.GITHUB_REPOSITORY;
 const repoUrl = `https://github.com/${repo}`;
 
 const readmePath = './readme.md';
-let readme = fs.readFileSync(readmePath, 'utf8');
+const myprofileath = './myprofile.md';
+let readme = fs.readFileSync(myprofileath, 'utf8');
 
 // Replace age placeholder
 readme = readme.replace(/<!-- AGE_PLACEHOLDER -->/, `${age}`);
