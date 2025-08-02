@@ -10,5 +10,14 @@ if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
 
 const readmePath = './readme.md';
 let readme = fs.readFileSync(readmePath, 'utf8');
-readme = readme.replace(/<!-- AGE_PLACEHOLDER -->[\s\S]*?\n/, `I'm ${age} years old\n`);
+
+// Replace only the age number in the SVG line
+readme = readme.replace(
+  /I'm\+\d+\+years\+old/,
+  `I'm+${age}+years+old`
+);
+
+// Optionally, if you use <!-- AGE_PLACEHOLDER --> elsewhere, replace it with just the age
+readme = readme.replace(/<!-- AGE_PLACEHOLDER -->/, `${age}`);
+
 fs.writeFileSync(readmePath, readme);
