@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=D8BFD8&height=120&section=header"/>
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=blue&size=35&center=true&vCenter=true&width=1000&lines=Welcome+to+my+Git;My+name+is+Kevin+Ocampo;I'm+<!-- AGE_PLACEHOLDER -->+years+old;I'm+from+Nicaragua+:%29)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=blue&size=35&center=true&vCenter=true&width=1000&lines=Welcome+to+my+Git;My+name+is+Kevin+Ocampo;I'm+34+years+old;I'm+from+Nicaragua+:%29)](https://git.io/typing-svg)
 
 
 # Hi 👋, I'm Kevin Ocampo.
@@ -15,7 +15,7 @@ Able to solve problems, proactive researcher, critical thinking, decision making
 
 ## 📄 &nbsp; Resume
 
-&nbsp;You can check my [Resume](<!-- REPO_URL_PLACEHOLDER -->/pdf/kocampo%20-%20CV.pdf) for more details about work experience and skills.
+&nbsp;You can check my [Resume]([GitHub Repository](https://github.com/TheFlash91/TheFlash91)/pdf/kocampo%20-%20CV.pdf) for more details about work experience and skills.
 
 ## 🛠 &nbsp;Languages and Tools
 
