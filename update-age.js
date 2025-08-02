@@ -8,10 +8,17 @@ if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
   age--;
 }
 
+// Get repo info from environment variables set by GitHub Actions
+const repo = process.env.GITHUB_REPOSITORY;
+const repoUrl = `https://github.com/${repo}`;
+
 const readmePath = './readme.md';
 let readme = fs.readFileSync(readmePath, 'utf8');
 
-// Replace only <!-- AGE_PLACEHOLDER --> with the age
+// Replace age placeholder
 readme = readme.replace(/<!-- AGE_PLACEHOLDER -->/, `${age}`);
+
+// Replace repo URL placeholder
+readme = readme.replace(/<!-- REPO_URL_PLACEHOLDER -->/, `[GitHub Repository](${repoUrl})`);
 
 fs.writeFileSync(readmePath, readme);
