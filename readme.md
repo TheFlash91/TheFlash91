@@ -56,7 +56,7 @@ Able to solve problems, proactive researcher, critical thinking, decision making
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=1CA2F1)](https://www.linkedin.com/in/ocampokevin91/)
 [![Email Bagde](https://img.shields.io/badge/Email-D14836?style=flat&logo=mail.ru&logoColor=white)](mailto:ocampokevin91@hotmail.com)
 
-
+<!--
 #### 🚀 Latest releases I contributed to
 {{range recentReleases 5}}
 - [{{.Name}}]({{.URL}}) ([{{.LastRelease.TagName}}]({{.LastRelease.URL}}), {{humanize .LastRelease.PublishedAt}}){{ with .Description }} - {{.}}{{ end }}
@@ -68,7 +68,7 @@ Able to solve problems, proactive researcher, critical thinking, decision making
 {{- end}}
 
 #### 👥 My latest followers
-{{range followers 5}}
+{{range fol>lowers 5}}
 - [{{.Login}}]({{.URL}}) - {{.Name}}
 {{- end}}
 
@@ -76,7 +76,7 @@ Able to solve problems, proactive researcher, critical thinking, decision making
 {{range recentRepos 5}}
 - [{{.Name}}]({{.URL}}){{ with .Description }} - {{.}}{{ end }}
 {{- end}}
-
+-->
 
 <!-- GitHub Readme Stats comes with several built-in themes (e.g. dark, radical, merko, gruvbox, tokyonight, onedark, cobalt, synthwave, highcontrast, dracula). -->
 ## My GitHub Stats
