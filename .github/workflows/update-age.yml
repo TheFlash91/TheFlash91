@@ -2,7 +2,7 @@ name: Update Age in README
 
 on:
   schedule:
-    - cron: '0 0 21 7 *' # Runs at 00:00 UTC on July 21 every year
+    - cron: '0 0 * * *' # Runs at 00:00 UTC every day
   workflow_dispatch:
 
 permissions:

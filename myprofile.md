@@ -53,6 +53,26 @@ Able to solve problems, proactive researcher, critical thinking, decision making
 [![Email Bagde](https://img.shields.io/badge/Email-D14836?style=flat&logo=mail.ru&logoColor=white)](mailto:ocampokevin91@hotmail.com)
 
 
+#### 🚀 Latest releases I contributed to
+{{range recentReleases 5}}
+- [{{.Name}}]({{.URL}}) ([{{.LastRelease.TagName}}]({{.LastRelease.URL}}), {{humanize .LastRelease.PublishedAt}}){{ with .Description }} - {{.}}{{ end }}
+{{- end}}
+
+#### ⭐ Latest repositories I starred
+{{range recentStars 5}}
+- [{{.Repo.Name}}]({{.Repo.URL}}) - {{.Repo.Description}} - {{.Repo.Stargazers}} stars
+{{- end}}
+
+#### 👥 My latest followers
+{{range followers 5}}
+- [{{.Login}}]({{.URL}}) - {{.Name}}
+{{- end}}
+
+#### 👨‍💻 Repositories I created recently
+{{range recentRepos 5}}
+- [{{.Name}}]({{.URL}}){{ with .Description }} - {{.}}{{ end }}
+{{- end}}
+
 ## My GitHub Stats
 
  <img src="https://github-readme-stats.vercel.app/api?username=TheFlash91&show_icons=true&theme=gotham" alt="TheFlash91" width="45%" align="right"/>
