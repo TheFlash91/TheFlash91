@@ -5,6 +5,10 @@ on:
     - cron: '0 0 21 7 *' # Runs at 00:00 UTC on July 21 every year
   workflow_dispatch:
 
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   update-age:
     runs-on: ubuntu-latest
