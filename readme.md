@@ -15,7 +15,7 @@ Able to solve problems, proactive researcher, critical thinking, decision making
 
 ## 📄 &nbsp; Resume
 
-&nbsp;You can check my [Resume](<!-- REPO_URL_PLACEHOLDER -->/pdf/kocampo%20-%20CV.pdf) for more details about work experience and skills.
+&nbsp;You can check my [Resume](<!-- REPO_URL_PLACEHOLDER -->/blob/main/pdf/kocampo%20-%20CV.pdf) for more details about work experience and skills.
 
 ## 🛠 &nbsp;Languages and Tools
 

@@ -19,6 +19,6 @@ let readme = fs.readFileSync(readmePath, 'utf8');
 readme = readme.replace(/<!-- AGE_PLACEHOLDER -->/, `${age}`);
 
 // Replace repo URL placeholder
-readme = readme.replace(/<!-- REPO_URL_PLACEHOLDER -->/, `[GitHub Repository](${repoUrl})`);
+readme = readme.replace(/<!-- REPO_URL_PLACEHOLDER -->/, `${repoUrl}`);
 
 fs.writeFileSync(readmePath, readme);
